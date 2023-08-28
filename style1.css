@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+    
+.logo{
+    margin-left: 5%;
+    width: 150px;
+    position: relative;
+    right: 50px;
+    cursor: pointer;
+}
+.navbar{
+    background-image: url('https://images.ctfassets.net/hrltx12pl8hq/4ACnMj4WVSOZRZt0jHu9h5/1506f652bcd70f4dc3e88219fefea858/shutterstock_739595833-min.jpg?fit=fill&w=1200&h=630');
+    background-size: 100%;
+    width: 100%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar ul li a{
+    position: relative;
+    right: 70%;
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+}
+.alvo h1{
+    padding: 20px;
+    cursor: pointer;
+}
+.alvo img{
+    position: absolute;
+    padding-left: 3%;
+    width: 100px;
+    background: #fff;
+}
+.alvo img:hover{
+    opacity: 0;
+}
+
+.alvo p{
+    padding-left: 30%;
+    width: 350px;
+}
+.alvo h1:hover{
+    text-decoration: underline plum;
+     transition: 1s;
+}
+.alvo{
+    border: outset;
+    width: 600px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    margin: 10px;
+    order: 1;
+    float: right;
+
+    
+}
+.alvo button{
+    position: relative;
+    margin-top: 2%;
+    padding: 5px;
+    left: 50%;
+}
+#mais{
+    display: none;
+}
+/*--computador--=======================================================*/
+
+
+.computador h1{
+    padding: 20px;
+    cursor: pointer;
+}
+.computador img{
+    position: absolute;
+    padding-left: 3%;
+    width: 100px;
+    background: #fff;
+}
+.computador img:hover{
+    opacity: 0;
+}
+
+.computador p{
+    padding-left: 30%;
+    width: 350px;
+}
+.computador h1:hover{
+    text-decoration: underline plum;
+     transition: 1s;
+}
+.computador{
+    border: outset;
+    float: right;
+    width: 600px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    margin: 10px;
+    order: 2;
+    
+}
+.computador button{
+    position: relative;
+    margin-top: 2%;
+    padding: 5px;
+    left: 50%;
+}
+#mais1{
+    display: none;
+}
+/*--coracao--===================================================*/
+
+.coracao h1{
+    padding: 20px;
+    cursor: pointer;
+}
+.coracao img{
+    position: absolute;
+    padding-left: 3%;
+    width: 100px;
+    background: #fff;
+}
+.coracao img:hover{
+    opacity: 0;
+}
+
+.coracao p{
+    padding-left: 30%;
+    width: 350px;
+}
+.coracao h1:hover{
+    text-decoration: underline plum;
+     transition: 1s;
+}
+.coracao{
+    width: 600px;
+    border-radius: 10px;
+    padding-bottom: 50px;
+    margin: 5px;
+    order: 3;
+    float: right;
+    border: outset;
+    
+}
+.coracao button{
+    position: relative;
+    margin-top: 2%;
+    padding: 5px;
+    left: 50%;
+}
+#mais2{
+    display: none;
+}
+
+/*---montanha===========================================*/
+.meta h1{
+    padding: 20px;
+    cursor: pointer;
+}
+.meta img{
+    position: absolute;
+    padding-left: 3%;
+    width: 100px;
+    background: #fff;
+}
+.meta img:hover{
+    opacity: 0;
+}
+
+.meta p{
+    padding-left: 30%;
+    width: 350px;
+}
+.meta h1:hover{
+    text-decoration: underline plum;
+     transition: 1s;
+}
+.meta{
+    width: 600px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    margin: 10px;
+    order: 4;
+    float: right;
+    border: outset;
+    
+}
+.meta button{
+    position: relative;
+    margin-top: 2%;
+    padding: 5px;
+    left: 50%;
+}
+#mais3{
+    display: none;
+}
+/*===========================calendario==========================*/
+.calendario h1{
+    padding: 20px;
+    cursor: pointer;
+}
+.calendario img{
+    position: absolute;
+    padding-left: 3%;
+    width: 100px;
+    background: #fff;
+}
+.calendario img:hover{
+    opacity: 0;
+}
+
+.calendario p{
+    padding-left: 30%;
+    width: 350px;
+}
+.calendario h1:hover{
+    text-decoration: underline plum;
+     transition: 1s;
+}
+.calendario{
+    width: 600px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    margin: 10px;
+    order: 5;
+    float: right;
+    border: outset;
+    
+}
+.calendario button{
+    position: relative;
+    margin-top: 2%;
+    padding: 5px;
+    left: 50%;
+}
+#mais4{
+    display: none;
+}
+/*============================================bater==========================*/
+.bater h1{
+    padding: 20px;
+    cursor: pointer;
+}
+.bater img{
+    position: absolute;
+    padding-left: 3%;
+    width: 100px;
+    background: #fff;
+}
+.bater img:hover{
+    opacity: 0;
+}
+
+.bater p{
+    padding-left: 30%;
+    width: 350px;
+}
+.bater h1:hover{
+    text-decoration: underline plum;
+     transition: 1s;
+}
+.bater{
+    width: 600px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    margin: 10px;
+    border: outset;
+    float: right;
+}
+.bater button{
+    position: relative;
+    margin-top: 2%;
+    padding: 5px;
+    left: 50%;
+}
+#mais5{
+    display: none;
+}
+
+
+
+    
